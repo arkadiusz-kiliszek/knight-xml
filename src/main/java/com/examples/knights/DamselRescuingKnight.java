@@ -10,7 +10,7 @@ public class DamselRescuingKnight implements Knight {
 //    private Ministrel ministrel;
 
     public DamselRescuingKnight() {
-        //cz rycerz powinien wiedziec cos jaki quest wykonuje i zajmowa sie nim ?
+        //cz rycerz powinien wiedziec cos jaki quest wykossnuje i zajmowa sie nim ?
 
         this.quest = new SlayDragonQuest(System.out);
         // czy rycerz powinien zajmowac sie swoim ministrelem ?
