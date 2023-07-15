@@ -2,8 +2,10 @@ package com.examples.knights;
 
 
 import com.examples.quests.Quest;
+import org.springframework.stereotype.Component;
 
-public class BraveKnight implements Knight{
+@Component("knight")
+public class BraveKnight implements Knight {
     private Quest quest;
 
     public BraveKnight(Quest quest) {
